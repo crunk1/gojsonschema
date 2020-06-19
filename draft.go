@@ -27,10 +27,11 @@ type Draft int
 
 // Supported Draft versions
 const (
-	Draft4 Draft = 4
-	Draft6 Draft = 6
-	Draft7 Draft = 7
-	Hybrid Draft = math.MaxInt32
+	Draft4      Draft = 4
+	Draft6      Draft = 6
+	Draft7      Draft = 7
+	Draft201909 Draft = 201909
+	Hybrid      Draft = math.MaxInt32
 )
 
 type draftConfig struct {
